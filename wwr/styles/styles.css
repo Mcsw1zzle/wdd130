@@ -85,3 +85,16 @@ nav {display: flex; justify-content: space-around;}
         margin-top: 25px;
     }
 }
+
+/* Page 2 (RIVERS) */
+
+.river-img {width: 550px; height: 500px; border: 10px solid black; justify-self: center;}
+.main-card {display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: 1fr;}
+.main-card p {grid-column: 2/3; grid-row: 1/2; height: 100%; font-size: 1.4em; width: 95%;}
+#hfirst {padding-left: 40px;}
+.second-card {display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr;}
+#hsecond {margin-left: 1320px;}
+.second-card img {grid-column: 2/3;}
+.second-card p {grid-column: 1/2; grid-row: 1/2; height: 100%; width: 95%; font-size: 1.4em; justify-self: end;}
+.third-card {display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: 1fr;}
+.third-card p {grid-column: 2/3; grid-row: 1/2; height: 100%; width: 95%; font-size: 1.4em;}
