@@ -98,3 +98,4 @@ nav {display: flex; justify-content: space-around;}
 .second-card p {grid-column: 1/2; grid-row: 1/2; height: 100%; width: 95%; font-size: 1.4em; justify-self: end;}
 .third-card {display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: 1fr;}
 .third-card p {grid-column: 2/3; grid-row: 1/2; height: 100%; width: 95%; font-size: 1.4em;}
+#hthird {padding-left: 135px;}
