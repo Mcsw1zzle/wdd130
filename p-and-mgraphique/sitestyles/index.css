@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Quicksand&display=swap');
+#content {max-width: 1900px;}
+#content {margin: 0 auto;}
+header {display: grid; text-align: center; padding: 20px; background-color: #655A7C; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.logo {height: 200px; width: 200px; grid-column: 3/4;}
+nav a {color: #CEF9F2; text-decoration: none; margin-top: 180px; font-family: cinzel decorative;}
+nav {display: flex; justify-content: space-around;}
+nav a:hover {background-color: black;}
+.gallery {background-color: #AFC1D6; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 20px;}
+.gallery img {height: 500px; width: 600px; justify-self: center;}
+#img1 img {height: 350px; width: 500px; margin-top: 90px; margin-left: 80px;}
+#img2 img {height: 360px; width: 500px; margin-top: 90px; margin-left: 20px;}
+body {background-color: #AB92BF;}
+main h1 {text-align: center; font-family: cinzel decorative;}
+main p {font-family: quicksand; text-align: center; padding-left: 300px; padding-right: 300px; font-size: 1.7em; padding-bottom: 75px;}
+#logo-temps {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; justify-items: center;}
+#logo-temps img {padding: 25px; height: 500px; width: 500px; padding-bottom: 150px;}
+footer {background-color: #655A7C; padding: 25px 50px; margin-top: 200px; display: flex; justify-content: space-around; align-items: center;}
+footer a {color: #CEF9F2; text-decoration: none;}
+footer p {font-size: 1.2em; color: #CEF9F2; font-family: quicksand;}
+footer p a:hover {text-decoration: underline;}
+.social img {height: 75px; padding-right: 50px;}
