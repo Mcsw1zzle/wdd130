@@ -20,3 +20,30 @@ footer a {color: #CEF9F2; text-decoration: none;}
 footer p {font-size: 1.2em; color: #CEF9F2; font-family: quicksand;}
 footer p a:hover {text-decoration: underline;}
 .social img {height: 75px; padding-right: 50px;}
+
+
+/* Subpage 1 */
+
+.h2 {text-align: center; font-family: cinzel decorative;}
+#merchgrid {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr;}
+#hats {grid-column: 1/2;}
+#shirts {grid-column: 3/4;}
+#hoodies {grid-column: 1/2; grid-row: 2/3; margin-top: -50px;}
+#mugs {grid-column: 2/3; grid-row: 2/3; margin-top: -10px;}
+#socks {grid-column: 3/4; grid-row: 2/3; margin-top: -50px;}
+#hats img, #shirts img, #mugs img {width: 500px; height: 500px;}
+#hats img {margin-left: 200px;}
+#shirts img {margin-left: -200px;}
+#hats h2 {margin-left: 420px; font-family: cinzel decorative;}
+#hats p {width: 100%; margin-left: -185px;}
+#shirts h2 {margin-left: 5px; font-family: cinzel decorative;}
+#shirts p {width: 150%; margin-left: -670px;}
+#hoodies img {width: 300px; height: 300px;}
+#hoodies img {margin-left: 150px;}
+#hoodies h2 {margin-left: 210px; font-family: cinzel decorative;}
+#socks h2 {margin-left: 110px; font-family: cinzel decorative;}
+#mugs h2 {margin-left: 175px; font-family: cinzel decorative;}
+#mugs p {width: 50%; margin-left: -250px;}
+#mugs img {margin-left: -50px;}
+#socks img {width: 300px; height: 300px; margin-left: 50px;}
+#merchgrid {margin-left: 50px;}
